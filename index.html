@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Cardo:400i|Open+Sans:700|Raleway:300,400,600,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <title>БГСПЛ</title>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+    <body>
+    
+        <!-- Sprite -->
+        
+        <svg style="display:none;">
+            
+            <symbol id="facebook" viewBox="-110 1 511 511.99996">
+                <g>
+                    <svg viewBox="-110 1 511 511.99996" xmlns="http://www.w3.org/2000/svg"><path d="m180 512h-81.992188c-13.695312 0-24.835937-11.140625-24.835937-24.835938v-184.9375h-47.835937c-13.695313 0-24.835938-11.144531-24.835938-24.835937v-79.246094c0-13.695312 11.140625-24.835937 24.835938-24.835937h47.835937v-39.683594c0-39.347656 12.355469-72.824219 35.726563-96.804688 23.476562-24.089843 56.285156-36.820312 94.878906-36.820312l62.53125.101562c13.671875.023438 24.792968 11.164063 24.792968 24.835938v73.578125c0 13.695313-11.136718 24.835937-24.828124 24.835937l-42.101563.015626c-12.839844 0-16.109375 2.574218-16.808594 3.363281-1.152343 1.308593-2.523437 5.007812-2.523437 15.222656v31.351563h58.269531c4.386719 0 8.636719 1.082031 12.289063 3.121093 7.878906 4.402344 12.777343 12.726563 12.777343 21.722657l-.03125 79.246093c0 13.6875-11.140625 24.828125-24.835937 24.828125h-58.46875v184.941406c0 13.695313-11.144532 24.835938-24.839844 24.835938zm-76.8125-30.015625h71.632812v-193.195313c0-9.144531 7.441407-16.582031 16.582032-16.582031h66.726562l.027344-68.882812h-66.757812c-9.140626 0-16.578126-7.4375-16.578126-16.582031v-44.789063c0-11.726563 1.191407-25.0625 10.042969-35.085937 10.695313-12.117188 27.550781-13.515626 39.300781-13.515626l36.921876-.015624v-63.226563l-57.332032-.09375c-62.023437 0-100.566406 39.703125-100.566406 103.609375v53.117188c0 9.140624-7.4375 16.582031-16.578125 16.582031h-56.09375v68.882812h56.09375c9.140625 0 16.578125 7.4375 16.578125 16.582031zm163.0625-451.867187h.003906zm0 0"/></svg>   
+                </g>
+            </symbol>
+            
+            <symbol id="twitter" viewBox="0 -45 512.00013 512">
+                <g>
+                    <svg viewBox="0 -45 512.00013 512" xmlns="http://www.w3.org/2000/svg"><path d="m194.816406 422.710938c-85.453125 0-152.992187-14.929688-185.304687-40.953126l-.628907-.507812-.570312-.570312c-7.675781-7.679688-10.191406-17.753907-6.894531-27.636719l.300781-.820313c4-10.003906 13.800781-16.738281 24.421875-16.800781 21.859375-.378906 40.984375-2.984375 58.339844-8.042969-27.683594-12.875-46.914063-35.167968-58.355469-67.433594-3.847656-10.0625-.527344-21.21875 8.339844-27.871093 2.1875-1.644531 4.660156-2.886719 7.277344-3.71875-15.382813-17.757813-26.746094-37.964844-33.109376-59.335938l-.199218-.664062-.136719-.679688c-2.160156-10.808593 2.671875-21.921875 11.527344-26.707031 3.714843-2.132812 7.75-3.238281 11.800781-3.332031-4.367188-9.40625-7.542969-19.0625-9.425781-28.777344-5.226563-26.921875-.914063-53.910156 12.8125-80.214844l3.175781-6.351562c2.542969-5.082031 7.402344-8.652344 13.003906-9.5625 5.601563-.90625 11.34375.945312 15.355469 4.957031l5.785156 5.792969c45.703125 47.914062 86.640625 70.648437 157.417969 86.203125 3.160156-27.167969 14.90625-52.421875 33.855469-72.296875 22.550781-23.648438 52.664062-36.917969 84.792969-37.371094h.210937c23.441406 0 52.519531 13.382813 70.105469 22.820313 15.085937-4.9375 33.261718-12.582032 52.121094-20.664063 8.824218-4.140625 19.703124-2.2460938 26.640624 4.691406 6.800782 6.800781 8.6875 16.390625 5.078126 25.710938-1.371094 3.816406-2.925782 7.5625-4.65625 11.226562 2.582031 1.183594 4.945312 2.789063 6.941406 4.785157 6.035156 6.035156 8.550781 15.480468 6.40625 24.066406l-.230469.816406c-7.226563 23.289062-21.109375 42.257812-39.46875 54.164062-3.066406 163.285157-126.027344 295.078126-276.730469 295.078126zm-156.511718-57.675782c30.449218 17.226563 88.476562 27.648438 156.511718 27.648438 65.410156 0 127.136719-28.082032 173.804688-79.074219 47.050781-51.410156 72.960937-119.679687 72.960937-192.234375v-.816406c0-6.570313 3.617188-12.566406 9.4375-15.652344 11.808594-6.253906 21.371094-16.90625 27.589844-30.527344-6.414063 1.011719-12.933594-1.5625-16.929687-6.929687-4.644532-6.238281-4.695313-14.664063-.128907-20.957031 2.464844-3.398438 4.699219-6.933594 6.691407-10.589844-16.285157 6.839844-31.75 12.972656-45.175782 17.046875-4.878906 1.476562-10.316406.898437-14.773437-1.589844-23.902344-13.316406-46.164063-21.277344-59.585938-21.316406-49.527343.757812-89.796875 43.175781-89.796875 94.605469 0 5.316406-2.359375 10.300781-6.464844 13.679687-4.109374 3.375-9.453124 4.726563-14.671874 3.695313-81.609376-16.078126-129.96875-40.1875-180.257813-90.722657-7.207031 17.269531-9.175781 34.664063-5.84375 51.839844 3.378906 17.398437 12.367187 34.832031 25.996094 50.414063 5.179687 5.914062 5.867187 14.375 1.710937 21.050781-4.140625 6.652343-12.011718 9.761719-19.578125 7.734375-5.914062-1.585938-11.351562-3.667969-16.507812-6.34375 10.503906 22.816406 28.570312 43.917968 51.28125 59.480468 6.582031 4.511719 9.332031 12.921876 6.691406 20.453126-2.644531 7.542968-10.03125 12.398437-18.015625 11.804687-8.699219-.644531-16.40625-2.296875-23.5-5.082031 12.734375 25.933594 33.082031 40.203125 64.429688 45.65625 7.464843 1.300781 13.277343 7.195312 14.464843 14.667968 1.191407 7.472657-2.507812 14.878907-9.199219 18.429688-26.71875 14.164062-55.921874 21.765625-91.140624 23.628906zm0 0"/></svg>
+                </g>
+            </symbol>
+            
+            <symbol id="linkedin" viewBox="0 0 512 512">
+                <g>
+                   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<g transform="translate(1)">
+	<g>
+		<g>
+			<path d="M68.12,4.267c-18.773,0-35.84,6.827-48.64,19.627C5.827,37.547-1,54.613-1,72.533c0,18.773,7.68,35.84,20.48,48.64
+				c12.8,12.8,30.72,20.48,47.787,19.627c0,0,0.853,0,1.707,0c17.067,0,33.28-6.827,46.08-19.627
+				c12.8-12.8,20.48-29.867,20.48-48.64c0.853-17.92-6.827-34.987-19.627-47.787C103.107,11.093,86.04,4.267,68.12,4.267z
+				 M103.107,109.227c-9.387,9.387-22.187,15.36-35.84,14.507c-12.8,0-26.453-5.12-35.84-14.507
+				c-10.24-9.387-15.36-23.04-15.36-36.693s5.12-26.453,15.36-36.693c9.387-9.387,22.187-14.507,36.693-14.507
+				c12.8,0,25.6,5.12,34.987,14.507c10.24,10.24,15.36,23.04,15.36,36.693S113.347,99.84,103.107,109.227z"/>
+			<path d="M101.4,157.867H32.28c-13.653,0-24.747,11.093-24.747,25.6v298.667c0,13.653,11.947,25.6,25.6,25.6H101.4
+				c13.653,0,25.6-11.947,25.6-24.747v-299.52C127,169.813,115.053,157.867,101.4,157.867z M109.933,482.987
+				c0,4.267-4.267,7.68-8.533,7.68H33.133c-4.267,0-8.533-4.267-8.533-8.533V183.467c0-4.267,3.413-8.533,7.68-8.533h69.12
+				c4.267,0,8.533,4.267,8.533,8.533V482.987z"/>
+			<path d="M391.533,149.333h-17.92c-33.28,0-64.853,14.507-85.333,37.547v-11.947c0-8.533-8.533-17.067-17.067-17.067H185.88
+				c-7.68,0-17.067,6.827-17.067,16.213v318.293c0,9.387,9.387,15.36,17.067,15.36h93.867c7.68,0,17.067-5.973,17.067-15.36v-184.32
+				c0-28.16,20.48-50.347,46.933-50.347c13.653,0,26.453,5.12,35.84,14.507c8.533,7.68,11.947,19.627,11.947,34.987v183.467
+				c0,8.533,8.533,17.067,17.067,17.067h85.333c8.533,0,17.067-8.533,17.067-17.067v-220.16
+				C511,202.24,458.947,149.333,391.533,149.333z M493.933,489.813l-0.853,0.853h-83.627L408.6,307.2
+				c0-20.48-5.12-35.84-16.213-46.933c-12.8-12.8-29.867-19.627-47.787-19.627c-35.84,0.853-64,29.867-64,67.413v182.613h-93.867
+				V174.933h84.48l0.853,0.853v53.76l23.04-23.04l0.853-0.853c17.067-23.893,46.933-39.253,78.507-39.253h17.92
+				c57.173,0,101.547,46.08,101.547,104.107V489.813z"/>
+		</g>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+                </g>
+            </symbol>
+        </svg>
+
+ <div class="backgr">   
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <h1>БГСПЛ</h1>
+                </div>
+                
+                <nav class="nav" id="nav">
+                    <a class="nav__link" href="#" data-scroll="#works">Теоретическая информация</a>
+                    <a class="nav__link" href="#" data-scroll="#pictures">Технологические карты</a>
+                    <a class="nav__link" href="#" data-scroll="#team">Проверь себя</a>
+                    <a class="nav__link" href="#" data-scroll="#reviews">О пособии</a>
+                </nav>
+                
+                <button class="burger" type="button" id="navToggle">
+                    <span class="burger__item">Menu</span>
+                </button>
+                
+            </div>
+         </div>
+    </header>
+   
+      
+       <!-- Intro -->
+    
+    
+     <div class="intro" id="intro">
+        <div class="container">
+            <div class="intro__inner">
+                 <h1 class="intro__title">ЭЛЕКТРОННЫЙ ОБРАЗОВАТЕЛЬНЫЙ РЕСУРС <br>"ОТДЕЛОЧНЫЕ СТРОИТЕЛЬНЫЕ РАБОТЫ"</h1>
+             </div>
+        </div>
+    </div>
+       
+ </div>  
+ 
+ 
+ <!-- Works -->
+ <div><div class="name_work">ШТУКАТУРНЫЕ РАБОТЫ</div></h3>
+ <div class="works" id="works">
+   <div class="works__item">
+       
+      
+      <img class="works__photo" src="images/works/work_1.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_1/work_1.html">Виды штукатурок</a>
+       </div>
+
+
+
+   </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_2.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_2/work_2.html">Вытягивание тяг</a>
+       </div>
+   </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_3.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_3/work_3.html">Инструменты и приспособления</a>
+       </div>
+   </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_4.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_4/work_4.html">Нанесение раствора</a>
+       </div>
+   </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_5.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_5/work_5.html">Оштукатуривание колонн</a>
+       </div>
+   </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_6.jpeg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_6/work_6.html">Оштукатуривание откосов</a>
+       </div>
+   </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_7.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_7/work_7.html">Подготовка поверхности</a>
+       </div>
+   </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_8.gif" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_8/work_8.html">Провешивание поверхностей</a>
+       </div>
+   </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_9.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_9/work_9.html">Растворы</a>
+       </div>
+   </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_10.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_10/work_10.html">Сухие смеси</a>
+       </div>
+   </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_11.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_11/work_11.html">Технология выполнения</a>
+       </div>
+   </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_12.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_12/work_12.html">Части зданий</a>
+       </div>
+   </div>
+   
+</div>       
+
+
+
+
+<div><div class="name_work">МАЛЯРНЫЕ РАБОТЫ</div></h3>
+ <div class="works" id="works">
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_13.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_1m/work_1m.html">Выполнение обойных работ</a>
+       </div>
+   </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_14.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_2m/work_2m.html">Дефекты водных красок</a>
+       </div>
+   </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_15.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_3m/work_3m.html">Вспомогательные инструменты</a>
+       </div>
+   </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_16.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_4m/work_4m.html">Окраска водными составами </a>
+       </div>
+   </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_17.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_5m/work_5m.html">Окраска деревянных поверхностей</a>
+       </div>
+   </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_18.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_6m/work_6m.html">Окраска поверхностей неводными составами</a>
+       </div>
+   </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_19.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_7m/work_7m.html">окраска окунанием</a>
+       </div>
+   </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_20.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_8m/work_8m.html">Окраска панелей и фризов</a>
+       </div>
+   </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_21.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_9m/work_9m.html">Окраска методом пневматического распыления</a>
+       </div>
+   </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_22.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_10m/work_10m.html">Нанесение лакокрасочных материалов во вращающихся барабанах</a>
+       </div>
+   </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_23.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_11m/work_11m.html">Подготовка оштукатуренной поверхности к окрашиванию</a>
+       </div>
+   </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_24.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_12m/work_12m.html">Сушка лакокрасочных покрытий (ЛКП)</a>
+       </div>
+   </div>
+   
+</div>   
+
+
+
+
+<div><div class="name_work">ОБЛИЦОВОЧНЫЕ РАБОТЫ</div></h3>
+ <div class="works" id="works">
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_25.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_1obl/work_1obl.html">Устройство гидроизоляции</a>
+       </div>
+   </div>
+   
+   <div class="works__item">
+      <img class="works__photo" src="images/works/work_26.jpg" alt="">
+      <div class="works__content">
+          <a class="works__title" href="links/work_2obl/work_2obl.html">Диагональная настилка плитки  </a>
+      </div>
+  </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_27.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_3obl/work_3obl.html">Полы из ковровой мозаики</a>
+       </div>
+   </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_28.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_4obl/work_4obl.html">ТЕХНОЛОГИЯ ОБЛИЦОВКИ ВЕРТИКАЛЬНЫХ ПОВЕРХНОСТЕЙ НА РАСТВОРЕ
+            </a>
+       </div>
+   </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_29.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_5obl/work_5obl.html">Настилка плитки на теплый пол</a>
+       </div>
+   </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_30.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_6obl/work_6obl.html">ПОДГОТОВКА ПОВЕРХНОСТЕЙ</a>
+       </div>
+   </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_31.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_7obl/work_7obl.html">Настилка плитки прямыми рядами с устройством фриза</a>
+       </div>
+   </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_32.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_8obl/work_8obl.html">Разбивка покрытия пола</a>
+       </div>
+   </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_33.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_9obl/work_9obl.html">Облицовка стен глазурованной плиткой на цементном растворе</a>
+       </div>
+   </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_34.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_10obl/work_10obl.html">Укладка полов с заданным уклоном</a>
+       </div>
+   </div>
+   
+   <div class="works__item">
+       <img class="works__photo" src="images/works/work_35.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_11obl/work_11obl.html">Установка опорных марок и маяков</a>
+       </div>
+   </div>
+   
+  <!--  <div class="works__item">
+       <img class="works__photo" src="images/works/work_36.jpg" alt="">
+       <div class="works__content">
+           <a class="works__title" href="links/work_12m/work_12m.html">Сушка лакокрасочных покрытий (ЛКП)</a>
+       </div>
+   </div> -->
+   
+</div>   
+        
+        <!-- pictures -->
+<div class="container" id="pictures">
+      <h1>Технологические карты</h1>
+      <h2 class="pictures_name">Штукатурные работы</h2>
+       <div class="pictures">
+        <div class="pictures__item">
+            <img class="pictures__icon"  src="images/pictures/picture_3.png" alt="">
+            <h4 class="pictures__title"><a href="cards/card_1/card_1.html">Технологическая карта 1</a></h4>
+            <div class="pictures__text">Алгоритм разравнивания и уплотнения слоев грунта</div>
+        </div>
+        
+        <div class="pictures__item">
+            <img class="pictures__icon"  src="images/pictures/picture_3.png" alt="">
+            <h4 class="pictures__title"><a href="cards/card_2/card_2.html">Технологическая карта 2</a></h4>
+            <div class="pictures__text">Нанесение раствора из ящика ковшом и соколом на стены</div>
+        </div>
+        
+        <div class="pictures__item">
+            <img class="pictures__icon"  src="images/pictures/picture_3.png" alt="">
+            <h4 class="pictures__title"><a href="cards/card_3/card_3.html">Технологическая карта 3</a></h4>
+            <div class="pictures__text">Нанесение раствора полутерком, соколом и кельмой на стены и потолки</div>
+        </div>
+        
+        <div class="pictures__item">
+            <img class="pictures__icon"  src="images/pictures/picture_3.png" alt="">
+            <h4 class="pictures__title"><a href="cards/card_4/card_4.html">Технологическая карта 4</a></h4>
+            <div class="pictures__text">Нанесение раствора на стену кельмой с сокола и ящика слева направо и справа налево на верхнюю, среднюю и нижнюю части стены</div>
+        </div>
+        
+        <div class="pictures__item">
+            <img class="pictures__icon"  src="images/pictures/picture_3.png" alt="">
+            <h4 class="pictures__title"><a href="cards/card_5/card_5.html">Технологическая карта 5</a></h4>
+            <div class="pictures__text">Нанесение раствора на потолок кельмой с сокола «от себя», «над собой» и «через плечо»</div>
+        </div>
+        
+        <div class="pictures__item">
+            <img class="pictures__icon"  src="images/pictures/picture_3.png" alt="">
+            <h4 class="pictures__title"><a href="cards/card_6/card_6.html">Технологическая карта 6</a></h4>
+            <div class="pictures__text">Разравнивание раствора на поверхности полутерком, правилом и соколом</div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container" id="pictures">
+   <h2 class="pictures_name">Облицовочные работы</h2>
+    <div class="pictures">
+     <div class="pictures__item">
+         <img class="pictures__icon"  src="images/pictures/picture_3.png" alt="">
+         <h4 class="pictures__title"><a href="cards/card_1(oblicovka)/card_1(oblicovka).html">Технологическая карта 1</a></h4>
+         <div class="pictures__text">Диагональная настилка полов керамической плиткой</div>
+     </div>
+     
+     <div class="pictures__item">
+         <img class="pictures__icon"  src="images/pictures/picture_3.png" alt="">
+         <h4 class="pictures__title"><a href="cards/card_2(oblicovka)/card_2(oblicovka).html">Технологическая карта 2</a></h4>
+         <div class="pictures__text">Настилка пола способом «по диагонали»</div>
+     </div>
+     
+     <div class="pictures__item">
+         <img class="pictures__icon"  src="images/pictures/picture_3.png" alt="">
+         <h4 class="pictures__title"><a href="cards/card_3(oblicovka)/card_3(oblicovka).html">Технологическая карта 3</a></h4>
+         <div class="pictures__text">Настилка полов керамическими плитками способами</div>
+     </div>
+     
+     <div class="pictures__item">
+         <img class="pictures__icon"  src="images/pictures/picture_3.png" alt="">
+         <h4 class="pictures__title"><a href="cards/card_4(oblicovka)/card_4(oblicovka).html">Технологическая карта 4</a></h4>
+         <div class="pictures__text">Настилка полов способом «прямыми рядами»</div>
+     </div>
+     
+     <div class="pictures__item">
+         <img class="pictures__icon"  src="images/pictures/picture_3.png" alt="">
+         <h4 class="pictures__title"><a href="cards/card_5(oblicovka)/card_5(oblicovka).html">Технологическая карта 5</a></h4>
+         <div class="pictures__text">Облицовка вертикальных поверхностей cпособом «вразбежку»</div>
+     </div>
+     
+     <div class="pictures__item">
+         <img class="pictures__icon"  src="images/pictures/picture_3.png" alt="">
+         <h4 class="pictures__title"><a href="cards/card_6(oblicovka)/card_6(oblicovka).html">Технологическая карта 6</a></h4>
+         <div class="pictures__text">Подготовка керамических плиток к работе (сортировка)</div>
+     </div>
+
+     <div class="pictures__item">
+      <img class="pictures__icon"  src="images/pictures/picture_3.png" alt="">
+      <h4 class="pictures__title"><a href="cards/card_7(oblicovka)/card_7(oblicovka).html">Технологическая карта 7</a></h4>
+      <div class="pictures__text">Подготовка поверхностей для облицовки стен и настилки полов плитка</div>
+      </div>
+
+      <div class="pictures__item">
+         <img class="pictures__icon"  src="images/pictures/picture_3.png" alt="">
+         <h4 class="pictures__title"><a href="cards/card_8(oblicovka)/card_8(oblicovka).html">Технологическая карта 8</a></h4>
+         <div class="pictures__text">Подготовка поверхностей для облицовки стен и настилки полов плиткам</div>
+      </div>
+
+      <div class="pictures__item">
+         <img class="pictures__icon"  src="images/pictures/picture_3.png" alt="">
+         <h4 class="pictures__title"><a href="cards/card_9(oblicovka)/card_9(oblicovka).html">Технологическая карта 9</a></h4>
+         <div class="pictures__text">Провешивание и разбивка вертикальных поверхностей</div>
+      </div>
+
+      <div class="pictures__item">
+         <img class="pictures__icon"  src="images/pictures/picture_3.png" alt="">
+         <h4 class="pictures__title"><a href="cards/card_10(oblicovka)/card_10(oblicovka).html">Технологическая карта 10</a></h4>
+         <div class="pictures__text">Укладка плиток основного поля при облицовке способом «вразбежку»</div>
+      </div>
+
+ </div>
+</div>
+
+             
+     
+              
+               
+           
+                 
+<!--tests -->
+
+<div class="title_works">
+   <h2>ПРОВЕРЬ СЕБЯ (Тестовые задания)</h2>
+   <h3>ШТУКАТУРНЫЕ РАБОТЫ</h3>
+</div>  
+             
+<div class="team" id="team">
+    <div class="container">
+        <div class="team__inner">
+           
+            <div class="team__item">
+               
+                <img class="team__photo" src="images/team/test_pofigism.png" alt="">
+                <div class="team__name">Тест 1. «Виды штукатурок»</div>
+                <div class="team__prof"><a href="tests/test_1/test_1.html">Пройти тест</a></div>
+                
+            </div>
+            
+            <div class="team__item">
+               
+                <img class="team__photo" src="images/team/test_pofigism.png" alt="">
+                <div class="team__name">Тест 2. «Технология отделки поверхностей листами сухой штукатурки»</div>
+                <div class="team__prof"><a href="tests/test_2/test_2.html">Пройти тест</a></div>
+                
+            </div>
+            
+            <div class="team__item">
+               
+                <img class="team__photo" src="images/team/test_pofigism.png" alt="">
+                <div class="team__name">Тест 3. «Дефекты штукатурки»</div>
+                <div class="team__prof"><a href="tests/test_3/test_3.html">Пройти тест</a></div>
+                
+            </div>
+            
+            <div class="team__item">
+               
+                <img class="team__photo" src="images/team/test_pofigism.png" alt="">
+                <div class="team__name">Тест 4. «Инструменты для штукатурных работ»</div>
+                <div class="team__prof"><a href="tests/test_4/test_4.html">Пройти тест</a></div>
+                
+            </div>
+            
+            <div class="team__item">
+               
+                <img class="team__photo" src="images/team/test_pofigism.png" alt="">
+                <div class="team__name">Тест 5. «Устройство марок и маяков»</div>
+                <div class="team__prof"><a href="tests/test_5/test_5.html">Пройти тест</a></div>
+                
+            </div>
+            
+            <div class="team__item">
+               
+                <img class="team__photo" src="images/team/test_pofigism.png" alt="">
+                <div class="team__name">Тест 6. «Оштукатуривание колонн»</div>
+                <div class="team__prof"><a href="tests/test_6/test_6.html">Пройти тест</a></div>
+                
+            </div>
+            
+            <div class="team__item">
+               
+                <img class="team__photo" src="images/team/test_pofigism.png" alt="">
+                <div class="team__name">Тест 7. «Подготовка поверхностей под оштукатуривание»</div>
+                <div class="team__prof"><a href="tests/test_7/test_7.html">Пройти тест</a></div>
+                
+            </div>
+            
+            <div class="team__item">
+               
+                <img class="team__photo" src="images/team/test_pofigism.png" alt="">
+                <div class="team__name">Тест 8. «Технология выполнения штукатурных работ»</div>
+                <div class="team__prof"><a href="tests/test_8/test_8.html">Пройти тест</a></div>
+                
+            </div>
+            
+            <div class="team__item">
+               
+                <img class="team__photo" src="images/team/test_pofigism.png" alt="">
+                <div class="team__name">Тест 9. «Основные части зданий»</div>
+                <div class="team__prof"><a href="tests/test_9/test_9.html">Пройти тест</a></div>
+                
+            </div>
+            
+            <div class="team__item">
+               
+                <img class="team__photo" src="images/team/test_pofigism.png" alt="">
+                <div class="team__name">Тест 10. «Технология выполнения штукатурных работ»</div>
+                <div class="team__prof"><a href="tests/test_10/test_10.html">Пройти тест</a></div>
+                
+            </div>
+            
+            
+            
+        </div>
+    </div>
+</div>
+
+<div class="title_works">
+   <h3>МАЛЯРНЫЕ РАБОТЫ</h3>
+</div> 
+
+<div class="team" id="team">
+   <div class="container">
+       <div class="team__inner">
+          
+           <div class="team__item">
+              
+               <img class="team__photo" src="images/team/test_pofigism.png" alt="">
+               <div class="team__name">Тест 1. «Выполнение обойных работ»</div>
+               <div class="team__prof"><a href="tests/test_1m/test_1m.html">Пройти тест</a></div>
+               
+           </div>
+           
+           <div class="team__item">
+              
+               <img class="team__photo" src="images/team/test_pofigism.png" alt="">
+               <div class="team__name">Тест 2. «Дефекты лакокрасочных покрытий»</div>
+               <div class="team__prof"><a href="tests/test_2m/test_2m.html">Пройти тест</a></div>
+               
+           </div>
+           
+           <div class="team__item">
+              
+               <img class="team__photo" src="images/team/test_pofigism.png" alt="">
+               <div class="team__name">Тест 3. «Лакокрасочные покрытия»</div>
+               <div class="team__prof"><a href="tests/test_3m/test_3m.html">Пройти тест</a></div>
+               
+           </div>
+           
+           <div class="team__item">
+              
+               <img class="team__photo" src="images/team/test_pofigism.png" alt="">
+               <div class="team__name">Тест 4. «Окрашивание фасадов»</div>
+               <div class="team__prof"><a href="tests/test_4m/test_4m.html">Пройти тест</a></div>
+               
+           </div>
+           
+           <div class="team__item">
+              
+               <img class="team__photo" src="images/team/test_pofigism.png" alt="">
+               <div class="team__name">Тест 5. «Подготовка поверхностей под окрашивание»</div>
+               <div class="team__prof"><a href="tests/test_5m/test_5m.html">Пройти тест</a></div>
+               
+           </div>
+           
+           <div class="team__item">
+              
+               <img class="team__photo" src="images/team/test_pofigism.png" alt="">
+               <div class="team__name">Тест 6. «Технология окрашивания поверхностей»</div>
+               <div class="team__prof"><a href="tests/test_6m/test_6m.html">Пройти тест</a></div>
+               
+           </div>
+           
+           <div class="team__item">
+              
+               <img class="team__photo" src="images/team/test_pofigism.png" alt="">
+               <div class="team__name">Тест 7. «Цветоведение»</div>
+               <div class="team__prof"><a href="tests/test_7m/test_7m.html">Пройти тест</a></div>
+               
+           </div>
+           
+           <div class="team__item">
+              
+               <img class="team__photo" src="images/team/test_pofigism.png" alt="">
+               <div class="team__name">Тест 8. «Технология окрашивания поверхностей»</div>
+               <div class="team__prof"><a href="tests/test_8m/test_8m.html">Пройти тест</a></div>
+               
+           </div>
+           
+           
+           
+       </div>
+   </div>
+</div>
+
+
+
+<div class="title_works">
+   <h3>ОБЛИЦОВОЧНЫЕ РАБОТЫ</h3>
+</div> 
+
+<div class="team" id="team">
+   <div class="container">
+       <div class="team__inner">
+          
+           <div class="team__item">
+              
+               <img class="team__photo" src="images/team/test_pofigism.png" alt="">
+               <div class="team__name">Тест 1. «Охрана труда в учебных мастерских»</div>
+               <div class="team__prof"><a href="tests/test_1obl/test_1obl.html">Пройти тест</a></div>
+               
+           </div>
+           
+           <div class="team__item">
+              
+               <img class="team__photo" src="images/team/test_pofigism.png" alt="">
+               <div class="team__name">Тест 2. «Подготовка инструмента и приспособлений к работе»</div>
+               <div class="team__prof"><a href="tests/test_2obl/test_2obl.html">Пройти тест</a></div>
+               
+           </div>
+           
+           <div class="team__item">
+              
+               <img class="team__photo" src="images/team/test_pofigism.png" alt="">
+               <div class="team__name">Тест 3. «Подготовка плиток к облицовке и настилке полов»</div>
+               <div class="team__prof"><a href="tests/test_3obl/test_3obl.html">Пройти тест</a></div>
+               
+           </div>
+           
+           <div class="team__item">
+              
+               <img class="team__photo" src="images/team/test_pofigism.png" alt="">
+               <div class="team__name">Тест 4. «Настилка полов плитками»</div>
+               <div class="team__prof"><a href="tests/test_4obl/test_4obl.html">Пройти тест</a></div>
+               
+           </div>
+
+           <div class="team__item">
+              
+            <img class="team__photo" src="images/team/test_pofigism.png" alt="">
+            <div class="team__name">Тест 5. «Разбивка пола на захватки»</div>
+            <div class="team__prof"><a href="tests/test_5obl/test_5obl.html">Пройти тест</a></div>
+            
+        </div>
+           
+           
+           
+           
+       </div>
+   </div>
+</div>
+             
+             
+             
+             
+<!--Testimonials -->
+  
+<div class="reviews" id="reviews">
+    <div class="container">
+       
+       <div id="reviewsSlider">
+    <div class="slick__item">
+        <div class="reviews__item">
+            <div class="reviews_photo">
+                <img class="reviews__img" src="images/reviews/review_1.jpg" alt="">
+            </div>
+            <div class="reviews__content">
+                <div class="reviews__text">
+                     <p>Автор проекта: Подошвелёва Дарья Владимировна, преподаватель 1-й квалификационной категории</p>   
+                    <p>Руководитель проекта: Маклак Ольга Владимировна, методист</p>
+                     <p>Разработчик: Виолентий Дмитрий Александрович</p>  
+                </div>
+            </div>
+        </div>
+    </div>
+        
+       
+       </div>
+    </div>
+</div>
+             
+             
+<!--         Download -->
+
+              
+        <!--Footer -->
+                
+<footer class="footer">
+    <div class="container">
+        
+           <div class="footer__inner">
+                <div class="footer__block">
+                    <h4 class="footer__title">Адрес:</h4>
+                        <address class="footer__adress">
+                            <div>г.Борисов ул.Почтовая 44</div>
+                            <div>222515</div>
+                        </address>                        
+                </div>
+                
+                <div class="footer__block">
+                    <h4 class="footer__title">Контактные телефоны: </h4>
+                    <div class="footer__text">
+                    <p>8 (0177) 73-31-62, 8 (0177) 73-47-17</p>                       
+                </div>
+                 </div>
+                <div class="footer__block">
+                    <h4 class="footer__title">УО "БГСПЛ"</h4>
+                        <div class="footer__text">
+                            <p>
+                                УЧРЕЖДЕНИЕ ОБРАЗОВАНИЯ "БОРИСОВСКИЙ ГОСУДАРСТВЕННЫЙ СТРОИТЕЛЬНЫЙ ПРОФЕССИОНАЛЬНЫЙ ЛИЦЕЙ"
+                            </p>
+                        </div>                      
+                </div>
+                
+          </div>
+        
+    </div>
+    
+    
+    <div class="copyright">
+       <div class="container">
+        <div class="copyright__text">
+            <div>2021-2022</div>
+        </div>
+        </div>
+    </div>
+    
+</footer>
+              
+                                
+<!--JavaScript-->
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>				
+<script src="app.js"></script>                                      
+
+   
+   
+    </body>
+</html>
