@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #6c7279;
+    
+    background-color: #DCDCDC;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.text_container h1, h2 {
+    text-align: center;
+}
+
+.text_container img{
+    width: 250px;
+    text-align: center;
+}
+
+.text_container {
+    padding: 20px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 20px;
+    background: lightgray;
+}
+
+.center_photo {
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    width: 100%;
+}
+
+img {
+    padding: 20px;
+}
+
